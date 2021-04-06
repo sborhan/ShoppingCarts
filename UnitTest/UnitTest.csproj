@@ -13,8 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ShoppingCarts\ShoppingCarts.Android\ShoppingCarts.Android.csproj" />
-    <ProjectReference Include="..\ShoppingCarts\ShoppingCarts.iOS\ShoppingCarts.iOS.csproj" />
     <ProjectReference Include="..\ShoppingCarts\ShoppingCarts\ShoppingCarts.csproj" />
   </ItemGroup>
 
