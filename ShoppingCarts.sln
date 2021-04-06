@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCarts.Android", "ShoppingCarts\ShoppingCarts.Android\ShoppingCarts.Android.csproj", "{2AC33B63-1380-47F3-AF48-980E0386FEC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCarts.iOS", "ShoppingCarts\ShoppingCarts.iOS\ShoppingCarts.iOS.csproj", "{DEF3AB08-4D64-486F-B8B3-5114BF6D75EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCarts", "ShoppingCarts\ShoppingCarts\ShoppingCarts.csproj", "{FB5D841F-B556-4956-9BF2-496110CA61DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCarts", "ShoppingCarts\ShoppingCarts\ShoppingCarts.csproj", "{FB5D841F-B556-4956-9BF2-496110CA61DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{F55FFE76-A80F-4013-ABE9-2105F87C213F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,30 @@ Global
 		{FB5D841F-B556-4956-9BF2-496110CA61DD}.Release|iPhone.Build.0 = Release|Any CPU
 		{FB5D841F-B556-4956-9BF2-496110CA61DD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{FB5D841F-B556-4956-9BF2-496110CA61DD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Release|iPhone.Build.0 = Release|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F55FFE76-A80F-4013-ABE9-2105F87C213F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
