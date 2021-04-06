@@ -42,7 +42,7 @@ namespace ShoppingCarts.Controls
 
         public ExtendedEditorControl()
         {
-            TextChanged += OnTextChanged;
+            TextChanged += OnTextChanged;    
         }
 
         ~ExtendedEditorControl()
