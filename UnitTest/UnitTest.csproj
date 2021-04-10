@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -14,6 +14,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ShoppingCarts\ShoppingCarts\ShoppingCarts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ContentView\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Model\" />
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
