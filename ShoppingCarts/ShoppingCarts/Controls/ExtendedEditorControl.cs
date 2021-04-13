@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System.Diagnostics.CodeAnalysis;
+using Xamarin.Forms;
 
 namespace ShoppingCarts.Controls
 {
@@ -43,13 +44,15 @@ namespace ShoppingCarts.Controls
         public ExtendedEditorControl()
         {
             TextChanged += OnTextChanged;    
-        }
+        } 
 
+        [ExcludeFromCodeCoverage]
         ~ExtendedEditorControl()
         {
             TextChanged -= OnTextChanged;
         }
-
+        
+        [ExcludeFromCodeCoverage]
         private void OnTextChanged(object sender, TextChangedEventArgs e)
         {
             if (IsExpandable)
