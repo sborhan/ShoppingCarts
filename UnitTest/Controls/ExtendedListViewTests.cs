@@ -6,7 +6,7 @@ using Xamarin.Forms;
 using NUnit.Framework;
 
 using ShoppingCarts.Controls;
-
+using ShoppingCarts;
 
 namespace UnitTest.Controls
 {
@@ -18,13 +18,15 @@ namespace UnitTest.Controls
         [SetUp]
         public void Setup()
         {
+            Xamarin.Forms.Mocks.MockForms.Init();
         }
 
-       // [Test]
+        [Test]
         public void ExtendedListView_Constructor_Should_Pass()
         {
             //Arrange
-            control = new ExtendedListView(ListViewCachingStrategy.RecycleElementAndDataTemplate);
+            //App app = new App();
+            control = new ExtendedListView();
 
             //Act
 
