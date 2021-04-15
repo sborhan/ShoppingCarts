@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -46,6 +47,7 @@ namespace ShoppingCarts.Controls
             set { SetValue(ItemDisappearingCommandProperty, value); }
         }
 
+        [ExcludeFromCodeCoverage]
         private void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var listView = (ExtendedListView)sender;
@@ -53,6 +55,7 @@ namespace ShoppingCarts.Controls
             listView.SelectedItem = null;
         }
 
+        [ExcludeFromCodeCoverage]
         private void OnItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (TappedCommand != null)
@@ -62,6 +65,7 @@ namespace ShoppingCarts.Controls
             SelectedItem = null;
         }
 
+        [ExcludeFromCodeCoverage]
         private void OnItemAppearing(object sender, ItemVisibilityEventArgs e)
         {
             if (ItemAppearingCommand != null)
@@ -70,6 +74,8 @@ namespace ShoppingCarts.Controls
             }
         }
 
+
+        [ExcludeFromCodeCoverage]
         private void OnItemDisappering(object sender, ItemVisibilityEventArgs e)
         {
             ItemDisappearingCommand?.Execute(e.Item);
