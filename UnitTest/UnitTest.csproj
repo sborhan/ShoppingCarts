@@ -20,7 +20,6 @@
   <ItemGroup>
     <Folder Include="ContentView\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Model\" />
     <Folder Include="Views\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Services\" />
