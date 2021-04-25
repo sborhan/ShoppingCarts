@@ -1,4 +1,5 @@
 ﻿using ShoppingCarts.ViewModels;
+using System.Diagnostics.CodeAnalysis;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,13 +17,14 @@ namespace ShoppingCarts.Views
             BindingContext = _ViewModel = new CartDetailPageViewModel();
         }
 
+        [ExcludeFromCodeCoverage]
         protected override void OnAppearing()
         {
             base.OnAppearing();
             _ViewModel.GetData.Execute(null);
         }
 
-        private void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             ((ListView)sender).SelectedItem = null;
         }
