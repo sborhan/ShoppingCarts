@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace UnitTest.Service
+namespace UnitTest.Service.ServiceImplementation
 {
-    class ItemServiceTests
+    class ProdectDetailServiceTest
     {
-        ItemService control;
+        ProdectDetailService control;
         [SetUp]
         public void Setup()
         {
@@ -21,7 +21,7 @@ namespace UnitTest.Service
         public void ItemService_Constructor_Should_Pass()
         {
             //Arrange
-            control = new ItemService();
+            control = new ProdectDetailService();
 
             //Act
 
@@ -29,20 +29,6 @@ namespace UnitTest.Service
 
             //Assert
             Assert.IsNotNull(control);
-        }
-
-        [Test]
-        public async Task ItemService_GetItems_Should_Pass()
-        {
-            //Arrange
-            control = new ItemService();
-
-            //Act
-
-            //Reset
-
-            //Assert
-            await control.GetItems();
         }
     }
 }
