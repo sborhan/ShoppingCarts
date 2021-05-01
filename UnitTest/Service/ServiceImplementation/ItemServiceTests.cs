@@ -32,17 +32,16 @@ namespace UnitTest.Service
         }
 
         [Test]
-        public async Task ItemService_GetItems_Should_Pass()
+        public async Task GetItems_Should_Pass()
         {
+            // TODO
             //Arrange
-            control = new ItemService();
 
             //Act
 
             //Reset
 
             //Assert
-            await control.GetItems();
         }
     }
 }

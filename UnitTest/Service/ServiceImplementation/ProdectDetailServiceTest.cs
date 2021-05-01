@@ -30,5 +30,20 @@ namespace UnitTest.Service.ServiceImplementation
             //Assert
             Assert.IsNotNull(control);
         }
+
+        [Test]
+        public void GetProducts_Test_Should_Pass()
+        {
+
+            // TODO
+            //Arrange
+
+            //Act
+
+            //Reset
+
+            //Assert
+            
+        }
     }
 }
