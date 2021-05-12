@@ -2,6 +2,7 @@
 using ShoppingCarts.Model;
 using ShoppingCarts.ViewModels;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -37,6 +38,7 @@ namespace ShoppingCarts.Views
             GotoCartDetailPage = true;
         }
 
+        [ExcludeFromCodeCoverage]
         protected override async void OnAppearing()
         {
             base.OnAppearing();
@@ -53,6 +55,7 @@ namespace ShoppingCarts.Views
             }
         }
 
+        [ExcludeFromCodeCoverage]
         private async void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var shoppingItem = ((ListView)sender).SelectedItem as Item;
