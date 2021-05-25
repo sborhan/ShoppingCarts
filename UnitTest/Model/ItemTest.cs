@@ -30,6 +30,20 @@ namespace UnitTest.Model
             Assert.IsNotNull(control);
         }
 
+        [Test]
+        public void ItemModelTests_GetName_Should_Pass()
+        {
+            //Arrange
+            var control = new Item();
+            control.Name = "Sam";
+            //Act
+            var reuslt = control.NameSort;
+            //Reset
+
+            //Assert
+            Assert.AreEqual("S", reuslt);
+        }
+
 
     }
 
