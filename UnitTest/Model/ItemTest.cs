@@ -36,8 +36,10 @@ namespace UnitTest.Model
             //Arrange
             var control = new Item();
             control.Name = "Sam";
+
             //Act
             var reuslt = control.NameSort;
+
             //Reset
 
             //Assert
