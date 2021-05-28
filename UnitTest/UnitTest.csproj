@@ -28,7 +28,6 @@
     <Folder Include="Helpers\" />
     <Folder Include="Model\" />
     <Folder Include="Service\ServiceInterface\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
 </Project>
